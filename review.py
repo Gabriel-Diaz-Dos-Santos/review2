@@ -17,4 +17,12 @@
 # When the loop is finished, print "Who do we appreciate?"
 # Remember how range can be used to create the list [2,4,6,8]
 # When complete, commit to github and submit a pull request!
+keepGoing = True 
+counter = 0
+while(keepGoing):
+    counter = counter +2
+    if counter == 10 :
+        keepGoing = False 
+    else:
+        print counter 
 
